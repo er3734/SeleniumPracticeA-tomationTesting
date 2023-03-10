@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.854">
+    <testcase classname="HomePageArrivalsImageDescription" name="TC04_HomePageArrivalsImageDescription" time="18.688">
+        <failure message="element click intercepted: Element &lt;a href=&quot;#tab-description&quot;&gt;...&lt;/a&gt; is not clickable at point (263, 673). Other element would receive the click: &lt;iframe id=&quot;aswift_5&quot; name=&quot;aswift_5&quot; style=&quot;width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;1005&quot; height=&quot;124&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20230308/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;amp;adk=1812271801&amp;amp;client=ca-pub-9173866185064071&amp;amp;fa=1&amp;amp;ifi=6&amp;amp;uci=a!6&amp;amp;btvi=5&amp;amp;xpc=G63Tshjewm&amp;amp;p=https%3A//practice.automationtesting.in&quot; data-google-container-id=&quot;a!6&quot; data-google-query-id=&quot;CMz49Ni00f0CFRCRmgodWlUGaQ&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;&#10;  (Session info: chrome=110.0.5481.178)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'ER3734', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [e6af309b2bb8cab62598964fa6c92ec9, clickElement {id=10612608-c9fc-4f75-8b0b-fdf75b688889}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\erdi3\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61606/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (e6af309b2bb8cab62598964fa6c92ec9)] -&gt; xpath: //*[text()='Description']]&#10;Session ID: e6af309b2bb8cab62598964fa6c92ec9" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given Open the browser......................................................passed
+When Enter the "url"........................................................passed
+And Click on Shop Menu......................................................passed
+And Now click on Home menu button...........................................passed
+And Test whether the Home page has 3 Arrivals only..........................passed
+And The Home page must contains only 3 Arrivals.............................passed
+And Now click the image in the Arrivals.....................................passed
+And Test whether it is navigating to next page where the user can add that book into his basket..passed
+And Image should be clickable and shoul navigate to next page where user can add that book to his basket.passed
+And Click on Description tab for the book you clicked on....................failed
+And There should be a description regarding that book the user clicked on...skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#tab-description">...</a> is not clickable at point (263, 673). Other element would receive the click: <iframe id="aswift_5" name="aswift_5" style="width: 1005px !important; height: 124px !important; display: block; margin: 0px auto;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="1005" height="124" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="https://googleads.g.doubleclick.net/pagead/html/r20230308/r20110914/zrt_lookup.html?fsb=1#RS-0-&amp;adk=1812271801&amp;client=ca-pub-9173866185064071&amp;fa=1&amp;ifi=6&amp;uci=a!6&amp;btvi=5&amp;xpc=G63Tshjewm&amp;p=https%3A//practice.automationtesting.in" data-google-container-id="a!6" data-google-query-id="CMz49Ni00f0CFRCRmgodWlUGaQ" data-load-complete="true"></iframe>
+  (Session info: chrome=110.0.5481.178)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'ER3734', ip: '192.168.1.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6af309b2bb8cab62598964fa6c92ec9, clickElement {id=10612608-c9fc-4f75-8b0b-fdf75b688889}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\erdi3\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61606/devtoo..., se:cdpVersion: 110.0.5481.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e6af309b2bb8cab62598964fa6c92ec9)] -> xpath: //*[text()='Description']]
+Session ID: e6af309b2bb8cab62598964fa6c92ec9
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy22.click(Unknown Source)
+	at stepDefinitions.MyStepdefs.clickOnDescriptionTabForTheBookYouClickedOn(MyStepdefs.java:88)
+	at ✽.Click on Description tab for the book you clicked on.(file:///C:/Users/erdi3/IdeaProjects/practice.automationtesting.inCucumber/src/test/resources/features/TC04_HomePageArrivalsImageDescription.feature:15)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
